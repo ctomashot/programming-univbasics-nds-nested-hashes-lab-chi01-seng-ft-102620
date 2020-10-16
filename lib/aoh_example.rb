@@ -17,9 +17,8 @@ def literal_aoh
   # held in the constants
 end
 
-def aoh_lookup(aoh, row, key
-  aoh[row, key])
-  aoh = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
+def aoh_lookup(aoh, row, key)
+  aoh[row, key]
 end
 
 def aoh_update(aoh, row, key, new_value)
